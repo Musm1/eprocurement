@@ -1,0 +1,190 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.contents{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tablediv{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.paginationdiv{
+    margin-bottom: 20px;
+}
+
+.contentSignin {
+    margin-top: 80px;
+    margin-left: 450px;
+}
+.contentSignUp {
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.container {
+    margin-top: 5px;
+    padding: 1%;
+}
+
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 20px;
+}
+
+
+#myFooter .row {
+    margin-bottom: 40px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 20px;
+}
+
+
+
+#myFooter ul {
+    padding-left: 0;
+    line-height: 1.0;
+}
+
+#myFooter h5 {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+#myFooter h2 a{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 100px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+   bottom: 0;
+}
+ 
+.Headings {
+    margin-top: 2px;
+    margin-left: 150px;
+}
+
+.Score {
+    float: right;
+}
+ 
+#table{
+    display: none;
+}
+
+.Carouselcontents
+{
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 150px;
+    
+}
+
+.Cardcontens{
+    margin-top: 50px;
+}
+
+#marquee:hover{
+    scroll-behavior: auto;
+}
